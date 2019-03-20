@@ -1,4 +1,4 @@
-Documenting your API is as important as having a functional API. To help make the documenting process easier this package allows you to annotate(注释) your API controllers and then generate documentation using the Artisan command line utility.
+Documenting your API is as important as having a functional API. To help make the documenting process（过程） easier this package allows you to annotate(注释) your API controllers and then generate documentation using the Artisan command line utility.
 
 为你的 API 添加文档跟完成一个 API 同样重要。为了使文档写起来更容易，这个包允许你在 controllers 中注释你的 API 然后通过 Artisan 命令生成文档。
 
@@ -12,9 +12,9 @@ For usage details see the [Commands](https://github.com/liyu001989/dingo-api-wik
 
 更多使用详情见 [Commands](https://github.com/liyu001989/dingo-api-wiki-zh/blob/master/Commands.md#apidocs) 章。
 
-### Resources 资源
+### Resources 资源 (这里代表控制器类)
 
-Controllers can generally be represented as a resource. Resources may contain a number of actions which are represented by HTTP verbs.
+Controllers（这里面代表一个控制器类，而不是一个action） can generally be represented（代表） as a resource. Resources may contain a number of actions which are represented by HTTP verbs(动词).
 
 控制器一般代表一个资源。资源可以包含若干代表 HTTP 动词的方法。
 
@@ -32,7 +32,7 @@ class UserController extends Controller
 }
 ```
 
-The first parameter given to the resource is its identifier or the name of the resource. We can also give a base URI to the resource.
+The first parameter given to the resource is its identifier(标识符) or the name of the resource. We can also give a base URI to the resource.
 
 资源的第一个参数是它的标识符或者是资源的名字。我们也可以给一个资源基本的 URI。
 
@@ -64,7 +64,7 @@ class UserController extends Controller
 
 ### Actions
 
-An action is represented by a routable method on your controller.
+An action is represented(代表) by a routable method on your controller.
 
 一个方法代表控制器中的一个可被路由的方法。
 
@@ -106,7 +106,7 @@ public function index()
 
 #### `@Versions`
 
-An action may be available across multiple API versions. When generating documentation this annnotation is used to determine what actions will be included once generated.
+An action may be available across（访问） multiple API versions. When generating documentation this annnotation is used to determine what actions will be included once generated.
 
 一个方法可以通过不同版本的api访问。当生成文档的时候，这个注释用来确定一次生成包含哪些方法。
 
