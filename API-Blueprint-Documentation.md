@@ -1,4 +1,4 @@
-Documenting your API is as important as having a functional API. To help make the documenting process easier this package allows you to annotate your API controllers and then generate documentation using the Artisan command line utility.
+Documenting your API is as important as having a functional API. To help make the documenting process easier this package allows you to annotate(注释) your API controllers and then generate documentation using the Artisan command line utility.
 
 为你的 API 添加文档跟完成一个 API 同样重要。为了使文档写起来更容易，这个包允许你在 controllers 中注释你的 API 然后通过 Artisan 命令生成文档。
 
